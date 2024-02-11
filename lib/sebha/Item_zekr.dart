@@ -1,13 +1,12 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
 import '../Home/My_Theme.dart';
 
 class ItemZekr extends StatelessWidget {
-  List<String> zekrList = ['sobhan Allah', 'Elham d lelah', 'Allah Akbar'];
 
-  int index;
+  String text;
 
-  ItemZekr({required this.index});
+  ItemZekr({required this.text});
 
   @override
   Widget build(BuildContext context) {
@@ -20,8 +19,11 @@ class ItemZekr extends StatelessWidget {
         color: MyTheme.primaryLight,
       ),
       child: Center(
-        child: Text(zekrList[index],
-            style: Theme.of(context).textTheme.titleMedium),
+        child: Text(text,
+            style: Theme.of(context)
+                .textTheme
+                .titleMedium!
+                .copyWith(color: MyTheme.whiteColor)),
       ),
     );
   }

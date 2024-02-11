@@ -1,7 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:islami/ahadeth/item_Hadith_name.dart';
+
 import '../Home/My_Theme.dart';
 
 class HadethTab extends StatefulWidget {
@@ -26,7 +27,7 @@ class _HadethTabState extends State<HadethTab> {
           thickness: 3,
         ),
         Text(
-          'Hadeth Name',
+          AppLocalizations.of(context)!.hadeth_name,
           style: Theme.of(context).textTheme.titleMedium,
         ),
         Divider(
