@@ -21,7 +21,10 @@ class MyTheme {
     textTheme: const TextTheme(
       titleLarge: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
       titleMedium: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
-      titleSmall: TextStyle(fontSize: 25, fontWeight: FontWeight.w400),
+      titleSmall: TextStyle(
+        fontSize: 25,
+        fontWeight: FontWeight.w300,
+      ),
     ),
   );
 }

@@ -1,0 +1,23 @@
+{
+<<<<<<< HEAD
+"app_title" : "اسلامى" ,
+"sura_name" : "أسم الصوره" ,
+"hadeth_name" : "أسم الحديث" ,
+"quraan" : "القران" ,
+"hadeth" : "الحديث" ,
+"sebha" : "السبحه" ,
+"radio" : "الأذاعه" ,
+"setting" : "الأعدادات" ,
+"language" : "اللغه" ,
+"english" : "الأنجليزيه" ,
+"arabic" : "العربيه"
+=======
+  "app_title": "اسلامى",
+  "sura_name": "أسم السوره",
+  "hadeth_name": "أسم الحديث",
+  "quran": "القران",
+  "hadeth": "الحديث",
+  "sebha": "السبحه",
+  "radio": "الاذاعه"
+>>>>>>> origin/development
+}
