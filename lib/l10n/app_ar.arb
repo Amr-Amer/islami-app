@@ -1,5 +1,8 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/development
 "app_title" : "اسلامى" ,
 "sura_name" : "أسم الصوره" ,
 "hadeth_name" : "أسم الحديث" ,
@@ -11,6 +14,7 @@
 "language" : "اللغه" ,
 "english" : "الأنجليزيه" ,
 "arabic" : "العربيه"
+<<<<<<< HEAD
 =======
   "app_title": "اسلامى",
   "sura_name": "أسم السوره",
@@ -19,5 +23,7 @@
   "hadeth": "الحديث",
   "sebha": "السبحه",
   "radio": "الاذاعه"
+>>>>>>> origin/development
+=======
 >>>>>>> origin/development
 }
